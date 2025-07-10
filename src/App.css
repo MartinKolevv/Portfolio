@@ -209,7 +209,7 @@ section h2::after {
   text-decoration: none;
 }
 
-/* Contact Section Styles */
+
 .contact-container {
   display: flex;
   align-items: flex-start;
@@ -379,7 +379,7 @@ section h2::after {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* About Section Styles */
+
 .about-section {
   margin-bottom: 4rem;
   padding: 2rem;
@@ -397,7 +397,7 @@ section h2::after {
   font-weight: 700;
 }
 
-/* 1. Skills Grid */
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -442,7 +442,7 @@ section h2::after {
   font-size: 0.9rem;
 }
 
-/* 2. Timeline */
+
 .experience-timeline {
   position: relative;
   padding-left: 2rem;
@@ -503,7 +503,7 @@ section h2::after {
   font-size: 0.95rem;
 }
 
-/* 3. Stats Cards */
+
 .stats-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -535,7 +535,7 @@ section h2::after {
   opacity: 0.9;
 }
 
-/* 4. Progress Bars */
+
 .traits-container {
   max-width: 500px;
   margin: 0 auto;
@@ -582,7 +582,7 @@ section h2::after {
   box-shadow: 0 0 10px rgba(108, 99, 255, 0.3);
 }
 
-/* 5. Quote Card */
+
 .quote-card {
   background: linear-gradient(135deg, rgba(108, 99, 255, 0.05) 0%, rgba(143, 111, 255, 0.05) 100%);
   padding: 2.5rem;
@@ -613,7 +613,7 @@ section h2::after {
   font-style: normal;
 }
 
-/* 6. Interests Grid */
+
 .interests-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -654,7 +654,7 @@ section h2::after {
   font-size: 0.9rem;
 }
 
-/* 7. Mission Card */
+
 .mission-card {
   background: linear-gradient(135deg, #6c63ff 0%, #8f6fff 100%);
   color: #fff;
