@@ -1,11 +1,29 @@
 function Projects() {
+  const projectCardStyle = {
+    background: '#1a1a2e',
+    boxShadow: '0 2px 12px rgba(0,0,0,0.3)',
+    borderRadius: '0.75rem',
+    padding: '1.5rem 2rem',
+    marginBottom: '1.5rem',
+    textAlign: 'center',
+    width: '100%',
+    maxWidth: '800px',
+    border: '1px solid rgba(108, 99, 255, 0.2)'
+  };
+  const projectTitleStyle = {
+    marginTop: 0,
+    marginBottom: '0.5rem',
+    fontSize: '1.4rem',
+    color: '#e0e0e0',
+    fontWeight: 700
+  };
   return (
     <section id="projects" className="projects-section">
       <h2>Projects</h2>
       <div className="projects-wrapper">
-        <div className="project-card">
+        <div className="project-card" style={projectCardStyle}>
           <div className="project-header-row">
-            <h3 className="project-title">To-Do App</h3>
+            <h3 className="project-title" style={projectTitleStyle}>To-Do App</h3>
             <a
               className="project-link-btn"
               href="https://martinkolevv.github.io/To-Do-App/"
