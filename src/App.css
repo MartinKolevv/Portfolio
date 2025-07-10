@@ -133,8 +133,15 @@ section h2::after {
 }
 
 .project-card {
-  transition: box-shadow 0.2s, transform 0.2s;
+  background: #1a1a2e;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  border-radius: 0.75rem;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
   text-align: center;
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid rgba(108, 99, 255, 0.2);
 }
 .project-card:hover {
   box-shadow: 0 6px 24px rgba(108, 99, 255, 0.2);
