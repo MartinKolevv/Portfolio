@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
 
-// Parallax effect for side decorations
 function setupSideDecorationParallax() {
   const left = document.querySelector('.side-decoration-left');
   const right = document.querySelector('.side-decoration-right');
@@ -22,14 +21,12 @@ function setupSideDecorationParallax() {
     }
   }
   window.addEventListener('scroll', onScroll);
-  // Clean up
   return () => window.removeEventListener('scroll', onScroll);
 }
 
 if (typeof window !== 'undefined') {
   window.addEventListener('DOMContentLoaded', () => {
     const cleanup = setupSideDecorationParallax();
-    // Optional: clean up on hot reload
     if (import.meta && import.meta.hot) {
       import.meta.hot.dispose(() => {
         if (cleanup) cleanup();
