@@ -1021,5 +1021,6 @@ section h2::after {
     right: -30px;
     bottom: -30px;
     filter: blur(20px);
+    z-index: -1;
   }
 }
