@@ -24,7 +24,7 @@ function Projects() {
             <h3 className="project-title">SeeTheWorld</h3>
             <a
               className="project-link-btn"
-              href="#"
+              href="https://fluecs.github.io/stw/"
               target="_blank"
               rel="noopener noreferrer"
             >
