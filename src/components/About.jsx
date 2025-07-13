@@ -85,7 +85,7 @@ function About() {
             <div className="mission-header">
               <div className="mission-icon">🎯</div>
             </div>
-            <p>To build innovative, user-centric applications that solve real-world problems 
+            <p>To build innovative, user-centric applications that solve real-world challenges 
             while maintaining clean, efficient, and scalable code.</p>
             <div className="mission-values">
               <span className="value-tag">Quality</span>
